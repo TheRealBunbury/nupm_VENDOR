@@ -54,6 +54,23 @@ local-branch = "patchy"
 
 pull-requests = []
 
+# List of branches from other repositories to merge
+# Format: "owner/repo/branch"
+# branches = [
+  #
+  #   Include master branch from another repo
+  # "helix-editor/helix/master",
+  #
+  #   Include a specific commit from a branch
+  # "helix-editor/helix/master @ 6049f20",
+  #
+# ]
+
+
+branches = [
+  "TheRealBunbury/nupm_VENDOR/main",
+]
+
 # Optional: A list of patches to apply
 #
 # A patch allows you to do specify custom commits and not have to rely on there being a pull request for that change
